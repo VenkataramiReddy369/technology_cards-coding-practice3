@@ -8,7 +8,7 @@ const CardItem = props => {
       <div className={className}>
         <h1 className="heading">{title}</h1>
         <p className="paragraph">{description} </p>
-        <img src={imageUrl} alt={title} className="image" />
+        <img src={imgUrl} alt={title} className="image" />
       </div>
     </li>
   )
